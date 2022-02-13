@@ -42,7 +42,7 @@ namespace Cacu{
                     n2 = Console.ReadLine();
                 }while(!double.TryParse(n2, out num2));
 
-                Console.WriteLine("a,s,m,d");
+                Console.WriteLine("더하기(a),빼기(s),곱하기(m),나누기(d)");
                 string a= Console.ReadLine();
                 double re = Calculate.DoOperation(num1, num2, a);
                 Console.WriteLine($"결과: {re}");
