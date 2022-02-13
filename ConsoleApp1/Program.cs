@@ -31,7 +31,7 @@ namespace Cacu{
             bool endApp = false;
             while (!endApp) {
                 double num1, num2;
-                string n1="", n2="";
+                string n1=null, n2=null;
                 do {
                     Console.WriteLine("첫 번째 숫자를 입력해 주세요!");
                     n1 = Console.ReadLine();
@@ -50,7 +50,7 @@ namespace Cacu{
                 Console.WriteLine("끝내게 습니까?(y/n)");
                 if(Console.ReadLine() == "y") endApp=true;
 
-                Console.WriteLine("======================================================\n");
+                Console.WriteLine("========================================================\n");
             }
         }
     }
