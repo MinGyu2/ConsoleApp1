@@ -32,6 +32,7 @@ namespace Cacu{
 
                 Console.WriteLine("========================================================\n");
             }
+            calculate.Finish();
         }
     }
 }
